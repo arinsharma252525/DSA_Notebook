@@ -23,3 +23,5 @@ public class Question3 {
         System.out.println(binarySearch(arr, target));
     }
 }
+
+//Time Complexity: O(log n)
