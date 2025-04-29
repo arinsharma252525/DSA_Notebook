@@ -13,7 +13,7 @@ public class Question2 {
         }
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);
-    }
+    } 
     public static void main(String[] args) {
     int arr[] = { 1, 2, 3, 4, 5 };
     minMax(arr);
