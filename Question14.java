@@ -1,4 +1,4 @@
-//Insertion Sort
+//Insertion Sort (Decreasing order)
 public class Question14 {
     public static void insertionSort(int arr[]) {
         for (int i = 1; i < arr.length; i++) {

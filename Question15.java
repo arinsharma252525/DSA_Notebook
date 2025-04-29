@@ -1,4 +1,4 @@
-//Counting Sort
+//Counting Sort (Decreasing order)
 public class Question15 {
     public static void countingSort(int arr[]) {
         int max = Integer.MIN_VALUE;

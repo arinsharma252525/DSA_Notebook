@@ -1,4 +1,4 @@
-//Selection Sort
+//Selection Sort (Decreasing order)
 public class Question13 {
     public static void selectionSort(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
