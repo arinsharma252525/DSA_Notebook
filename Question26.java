@@ -1,3 +1,4 @@
+//String Compression  
 public class Question26 {
     public static String Compress(String str) {
         StringBuilder sb = new StringBuilder();
