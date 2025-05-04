@@ -25,4 +25,4 @@ public class Question28 {
     String Str2 = "rain";
     System.out.println(checkAnagrams(Str1, Str2));
   }
-}
+} 

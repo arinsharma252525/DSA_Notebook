@@ -18,7 +18,7 @@ public class Question15 {
                 count[i]--;
             }
         }
-    }
+    } 
 
     public static void main(String args[]) {
         int arr[] = { 3, 2, 5, 6, 1, 4, 7, 9, 8, 10 };

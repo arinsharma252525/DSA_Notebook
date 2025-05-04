@@ -13,7 +13,7 @@ public class Question7 {
             }
         }
         return maxSum;
-    }
+    } 
 
     public static void main(String args[]) {
         int arr[] = {5, 4, -1, 7, 8};

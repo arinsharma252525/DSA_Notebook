@@ -14,4 +14,4 @@ public class Question24 {
         String fruits[] = { "apple", "mango", "banana" };
         System.out.println(Largest(fruits));
     }
-}
+} 

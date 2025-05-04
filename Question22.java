@@ -14,4 +14,4 @@ public class Question22 {
         String str = "madam";
         System.out.println(isPalindrome(str));
     }
-}
+} 

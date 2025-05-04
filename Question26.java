@@ -22,3 +22,4 @@ public class Question26 {
         System.out.println(Compress(str));
     }
 }
+ 

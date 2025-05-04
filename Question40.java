@@ -5,3 +5,4 @@ public class Question40 {
         System.out.println(x + " + " + 1 + " is " + -~x);
     }
 }
+ 

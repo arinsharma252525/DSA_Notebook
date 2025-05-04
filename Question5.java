@@ -8,7 +8,7 @@ public class Question5 {
                 System.out.print("(" + current + "," + nextElement + ")");
             }
             System.out.println();
-        }
+        } 
     }
     public static void main(String[] args) {
         int numbers[] = {2, 4, 6, 8, 10};

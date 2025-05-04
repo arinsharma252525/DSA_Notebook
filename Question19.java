@@ -16,3 +16,4 @@ public class Question19 {
         System.out.println(numberOf7s(matrix));
     }
 }
+ 

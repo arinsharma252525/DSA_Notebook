@@ -21,7 +21,7 @@ public class Question16 {
             for (int j = endColumn - 1; j >= startColumn; j--) {
                 if (startRow == endRow) {
                     break;
-                }
+                } 
                 System.out.print(matrix[endRow][j] + " ");
             }
 

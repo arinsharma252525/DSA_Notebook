@@ -18,3 +18,4 @@ public class Question33 {
         System.out.println(updateIthBit(n, i, newbit));
     }
 }
+ 

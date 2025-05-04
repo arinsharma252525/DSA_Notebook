@@ -8,3 +8,4 @@ public class Question36 {
         System.out.println(isPowerOfTwo(n));
     }
 }
+ 

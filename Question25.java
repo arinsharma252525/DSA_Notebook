@@ -20,4 +20,4 @@ public class Question25 {
         String str = "hi i am arin sharma";
         System.out.println(toUpperCase(str));
     }
-}
+} 

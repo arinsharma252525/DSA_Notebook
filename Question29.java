@@ -12,4 +12,4 @@ public class Question29 {
        int n = 29;
        oddOrEven(n); 
     }
-}
+} 

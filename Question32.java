@@ -11,3 +11,4 @@ public class Question32 {
         System.out.println(clearIthBit(n, i));
     }
 }
+ 

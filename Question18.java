@@ -21,3 +21,4 @@ public class Question18 {
         System.out.println(stairCaseSearch(matrix, target));
     }
 }
+ 

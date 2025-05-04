@@ -13,3 +13,4 @@ public class Question20 {
         System.out.println(Sum(matrix));
     }
 }
+ 

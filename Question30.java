@@ -14,3 +14,4 @@ public class Question30 {
        System.out.println(getIthBit(n, i));
     }
 }
+ 

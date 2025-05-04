@@ -15,4 +15,4 @@ public class Question10 {
         int arr[] = { 1, 2, 3, 1 };
         System.out.println(containsDuplicate(arr));
     }
-}
+} 

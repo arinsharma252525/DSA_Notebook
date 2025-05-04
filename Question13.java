@@ -21,6 +21,6 @@ public class Question13 {
             System.out.print(arr[i] + " ");
         }
     }
-}
+} 
 
 //Time Complexity: O(n2)

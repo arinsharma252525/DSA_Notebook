@@ -25,3 +25,4 @@ public class Question42 {
     System.out.println(modularExponentiation(x, n, m));
     }
 }
+ 

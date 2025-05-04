@@ -11,7 +11,7 @@ public class Question8 {
         leftMax[0] = height[0];
         for (int i = 1; i < n; i++) {
             leftMax[i] = Math.max(height[i], leftMax[i - 1]);
-        }
+        } 
 
         // Calculate right max boundary
         int rightMax[] = new int[n];

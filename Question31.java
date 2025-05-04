@@ -11,3 +11,4 @@ public class Question31 {
         System.out.println(setIthBit(n, i));
     }
 }
+ 

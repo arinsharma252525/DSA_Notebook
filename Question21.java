@@ -22,7 +22,7 @@ public class Question21 {
                 System.out.print(matrix[i][j] + " ");
             }
             System.out.println();
-        }
+        } 
 
         System.out.println("Transpose of the Matrix:");
         for (int i = 0; i < transposedMatrix.length; i++) {

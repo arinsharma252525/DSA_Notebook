@@ -10,4 +10,4 @@ public class Question34 {
         int i = 2;
         System.out.println(clearLastIthBit(n, i));
     }
-}
+} 

@@ -5,7 +5,7 @@ public class Question1 {
             if (arr[i] == target) {
                 return true;
             }
-        }
+        } 
         return false;
     }
 

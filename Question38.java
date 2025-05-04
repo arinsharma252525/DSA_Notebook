@@ -18,3 +18,4 @@ public class Question38 {
         System.out.println(fastExponentiation(a, n));
     }
 }
+ 

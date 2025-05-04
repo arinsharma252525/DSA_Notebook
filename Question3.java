@@ -13,7 +13,7 @@ public class Question3 {
             } else {
                 end = mid - 1;
             }
-        }
+        } 
         return -1;
     } 
 

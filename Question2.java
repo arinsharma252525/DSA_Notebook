@@ -8,7 +8,7 @@ public class Question2 {
                 min = arr[i];
             }
             if(arr[i] > max){
-                max = arr[i];
+                max = arr[i]; 
             }
         }
         System.out.println("Min: " + min);
