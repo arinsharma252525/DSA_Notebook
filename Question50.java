@@ -1,4 +1,4 @@
-//Write a program to find the last occurrence of an element in an array
+//Write a program to find the last occurence of an element in an array
 public class Question50 {
     public static int lastOccurence(int arr[], int key, int i) {
         if (i == arr.length) {

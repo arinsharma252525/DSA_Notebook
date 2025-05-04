@@ -1,4 +1,4 @@
-//Write a program to find the first occurrence of an element in an array
+//Write a program to find the first occurence of an element in an array
 public class Question49 {
     public static int firstOccurence(int arr[], int key, int i) {
         if (i == arr.length) {
