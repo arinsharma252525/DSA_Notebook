@@ -1,16 +1,16 @@
 //Remove Duplicates
 public class Question54 {
-    public static void removeDuplicates(String str, int index, StringBuilder newstr, boolean map[]) {
-        if (index == str.length()) {
+    public static void removeDuplicates(String str, int i, StringBuilder newstr, boolean map[]) {
+        if (i == str.length()) {
             System.out.println(newstr);
             return;
         }
-        char currChar = str.charAt(index);
+        char currChar = str.charAt(i);
         if (map[currChar - 'a'] == true) {
-            removeDuplicates(str, index + 1, newstr, map);
+            removeDuplicates(str, i + 1, newstr, map);
         } else {
             map[currChar - 'a'] = true;
-            removeDuplicates(str, index + 1, newstr.append(currChar), map);
+            removeDuplicates(str, i + 1, newstr.append(currChar), map);
         }
     }
 
