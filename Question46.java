@@ -11,3 +11,8 @@ public class Question46 {
         System.out.println(Sum(5));
     }
 }
+
+/*
+ * Time Complexity: O(n)
+ * Space Complexity: O(n)
+ */

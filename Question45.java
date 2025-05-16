@@ -11,3 +11,8 @@ public class Question45 {
         System.out.println(factorial(5));
     }
 }
+
+/*
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) 
+ */

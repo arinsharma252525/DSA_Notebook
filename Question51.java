@@ -11,3 +11,8 @@ public class Question51 {
         System.out.println(Power(2, 10));
     }
 }
+
+/*
+ * Time Complexity: O(n)
+ * Space Complexity: O(n) 
+ */

@@ -21,4 +21,7 @@ public class Question12 {
     } 
 }
 
-//Time Complexity: O(n2)
+/*
+ * Time Complexity: O(n²)
+ * Space Complexity: O(1)
+ */

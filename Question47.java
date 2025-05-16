@@ -11,3 +11,8 @@ public class Question47 {
         System.out.println(fibonacci(25));
     }
 }
+
+/*
+ * Time Complexity: O(2^n)
+ * Space Complexity: O(n)
+ */
