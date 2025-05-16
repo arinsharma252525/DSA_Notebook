@@ -16,3 +16,8 @@ public class Question52 {
         System.out.println(Power(2, 10));
     }
 }
+
+/*
+ * Time Complexity: O(log n) 
+ * Space Complexity: O(log n) 
+ */
