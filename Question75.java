@@ -16,11 +16,11 @@ public class Question75 {
         }
 
         // grid
-        int startRow = (row/3) * 3;
-        int startCol = (col/3) * 3;
-        for(int i = startRow; i < startRow + 3; i++){
-            for(int j = startCol; j < startCol + 3; j++){
-                if(sudoku[i][j] == digit){
+        int startRow = (row / 3) * 3;
+        int startCol = (col / 3) * 3;
+        for (int i = startRow; i < startRow + 3; i++) {
+            for (int j = startCol; j < startCol + 3; j++) {
+                if (sudoku[i][j] == digit) {
                     return false;
                 }
             }
@@ -32,7 +32,7 @@ public class Question75 {
         // base case
         if (row == 9) {
             return true;
-        } 
+        }
 
         // recursion
         int nextRow = row, nextCol = col + 1;
@@ -58,9 +58,9 @@ public class Question75 {
     }
 
     public static void printSudoku(int sudoku[][]) {
-        for(int i = 0; i < 9; i++){
-            for(int j = 0; j < 9; j++){
-                System.out.print(sudoku[i][j]+ " ");
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 9; j++) {
+                System.out.print(sudoku[i][j] + " ");
             }
             System.out.println();
         }
@@ -78,7 +78,7 @@ public class Question75 {
                 { 0, 4, 9, 0, 3, 0, 0, 5, 7 },
                 { 8, 2, 7, 0, 0, 9, 0, 1, 3 }
         };
-        if(sudokuSolver(sudoku, 0, 0)){
+        if (sudokuSolver(sudoku, 0, 0)) {
             System.out.println("Solution exists");
             printSudoku(sudoku);
         } else {
