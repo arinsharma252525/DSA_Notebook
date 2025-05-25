@@ -1,4 +1,4 @@
-//Floyd's cycle finding algorithm
+//Floyd's cycle finding & removing algorithm
 public class Question93 {
     public static class Node {
         int data;
