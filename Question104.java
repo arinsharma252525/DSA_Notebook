@@ -70,3 +70,4 @@ class Node {
         this.data = data;
     }
 }
+
