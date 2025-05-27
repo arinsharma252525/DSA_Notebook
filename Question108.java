@@ -1,6 +1,5 @@
-//Push at the bottom of the stack
+//Push at the bottom of stack
 import java.util.Stack;
-
 public class Question108 {
     public static void pushAtBottom(Stack<Integer> s, int data) {
         if (s.isEmpty()) {
