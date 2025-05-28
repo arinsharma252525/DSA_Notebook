@@ -1,4 +1,4 @@
-//Queue using linkedlist
+//Queue implementation using linkedlist
 public class Question122 {
     static class Node {
         int data;

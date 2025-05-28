@@ -1,4 +1,4 @@
-//Circular Queue using arrays
+//Circular Queue implementation using arrays
 public class Question121 {
     static class Queue {
         static int arr[];

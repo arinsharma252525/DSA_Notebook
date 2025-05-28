@@ -1,28 +1,24 @@
-//Queue implementation implementation using array
-public class Question120 {
+//Queue implementation using two stack
+import java.util.Stack;
+public class Question124 {
     static class Queue {
-        static int arr[];
-        static int size;
-        static int rear;
-
-        Queue(int n) {
-            arr = new int[n];
-            size = n;
-            rear = -1;
-        }
+        static Stack<Integer> s1 = new Stack<>();
+        static Stack<Integer> s2 = new Stack<>();
 
         public static boolean isEmpty() {
-            return rear == -1;
+            return s1.isEmpty();
         }
 
         // add
         public static void add(int data) {
-            if (rear == size - 1) {
-                System.out.println("Queue is full");
-                return;
+            while (!s1.isEmpty()) {
+                s2.push(s1.pop());
             }
-            rear++;
-            arr[rear] = data;
+            s1.push(data);
+
+            while (!s2.isEmpty()) {
+                s1.push(s2.pop());
+            }
         }
 
         // remove
@@ -31,12 +27,7 @@ public class Question120 {
                 System.out.println("Queue is empty");
                 return -1;
             }
-            int front = arr[0];
-            for (int i = 0; i < rear; i++) {
-                arr[i] = arr[i + 1];
-            }
-            rear--;
-            return front;
+            return s1.pop();
         }
 
         // peek
@@ -45,15 +36,17 @@ public class Question120 {
                 System.out.println("Queue is empty");
                 return -1;
             }
-            return arr[0];
+            return s1.peek();
         }
     }
 
     public static void main(String[] args) {
-        Queue q = new Queue(5);
+        Queue q = new Queue();
         q.add(1);
         q.add(2);
         q.add(3);
+        q.add(4);
+        q.add(5);
         while (!q.isEmpty()) {
             System.out.print(q.peek() + " ");
             q.remove();
