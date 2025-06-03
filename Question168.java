@@ -1,4 +1,4 @@
-//Build a BST
+//Inorder traversal in a BST
 public class Question168 {
     static class Node {
         int data;
