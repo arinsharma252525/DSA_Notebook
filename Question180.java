@@ -1,6 +1,4 @@
 //Red black tree
-import java.util.*;
-
 public class Question180 {
     public Node root;
 
