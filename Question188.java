@@ -10,12 +10,10 @@ public class Question188 {
             int x = arr.size() - 1;
             int parent = (x - 1) / 2;
 
-            while (x > 0 && arr.get(x) < arr.get(parent)) {
+            while (arr.get(x) < arr.get(parent)) {
                 int temp = arr.get(x);
                 arr.set(x, arr.get(parent));
                 arr.set(parent, temp);
-                x = parent;
-                parent = (x - 1) / 2;
             }
         }
 
