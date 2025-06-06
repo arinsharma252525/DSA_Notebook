@@ -1,7 +1,5 @@
 //Heap sort 
-
 import java.util.Arrays;
-
 public class Question189 {
     public static void heapSort(int arr[]) {
         int n = arr.length;
