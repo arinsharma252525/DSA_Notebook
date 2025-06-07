@@ -5,6 +5,7 @@ import java.util.TreeSet;
 public class Question207 {
     public static void main(String[] args) {
 
+        // Hashset (arranged in random order)
         HashSet<Integer> hs = new HashSet<>();
         hs.add(1);
         hs.add(4);
