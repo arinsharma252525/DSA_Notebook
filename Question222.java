@@ -1,5 +1,5 @@
-//Search in a trie
-public class Question218 {
+//Count Unique Substrings
+public class Question222 {
     static class Node {
         Node children[] = new Node[26];
         boolean endOfWord = false;
@@ -25,7 +25,7 @@ public class Question218 {
         current.endOfWord = true;
     }
 
-    //Search
+    // Search 
     public static boolean Search(String key) {
         Node current = root;
         for (int i = 0; i < key.length(); i++) {
@@ -38,14 +38,26 @@ public class Question218 {
         return current.endOfWord == true;
     }
 
-    public static void main(String[] args) {
-        String words[] = { "the", "a", "there", "their", "any", "thee" };
-        for (String word : words) {
-            insert(word);
+    public static int countNode(Node root) {
+        if (root == null) {
+            return 0;
         }
-        System.out.println(Search("the"));
-        System.out.println(Search("thor"));
-        System.out.println(Search("thee"));
-        System.out.println(Search("th")); 
+
+        int count = 0;
+        for (int i = 0; i < 26; i++) {
+            if (root.children[i] != null) {
+                count += countNode(root.children[i]); 
+            }
+        }
+        return count + 1; 
+    }
+
+    public static void main(String[] args) {
+        String str = "apple";
+        for (int i = 0; i < str.length(); i++) {
+            String suffix = str.substring(i);
+            insert(suffix);
+        }
+        System.out.println(countNode(root));
     }
 }
