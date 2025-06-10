@@ -1,4 +1,4 @@
-//min and max in array
+//Min and Max in array
 public class Question2 {
     public static void minMax(int arr[]){
         int min = Integer.MAX_VALUE;
