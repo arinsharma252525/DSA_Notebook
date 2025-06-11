@@ -1,6 +1,6 @@
 //Trapping rainwater
 public class Question8 {
-    public static int trapppingRainwater(int height[]) {
+    public static int trappingRainwater(int height[]) {
         int n = height.length;
         if (n <= 2) {
             return 0;
@@ -31,6 +31,6 @@ public class Question8 {
 
     public static void main(String args[]) {
         int height[] = { 2, 1, 5, 3, 1, 0, 4 };
-        System.out.println(trapppingRainwater(height));
+        System.out.println(trappingRainwater(height));
     }
 }
