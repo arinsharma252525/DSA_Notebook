@@ -1,20 +1,19 @@
-//Print Subarray
+//Generating All Subarrays
 public class Question6 {
-    public static void subarray(int arr[]) {
-        for (int i = 0; i < arr.length; i++) {
-            int start = i;
-            for (int j = i; j < arr.length; j++) {
-                int end = j;
-                for (int k = start; k <= end; k++) {
+    public static void printSubArray(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = i; j < n; j++) {
+                for (int k = i; k <= j; k++) {
                     System.out.print(arr[k] + " ");
                 }
                 System.out.println();
             }
         }
-    } 
+    }
 
     public static void main(String[] args) {
-        int arr[] = { 2, 4, 6, 8 };
-        subarray(arr);
+        int arr[] = { 1, 2, 3, 4 };
+        printSubArray(arr);
     }
 }

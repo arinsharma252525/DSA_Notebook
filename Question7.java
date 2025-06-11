@@ -1,4 +1,4 @@
-//Maximum subarray sum (Kadane's Algorithm)
+//Maximum Subarray Sum (Kadane's Algorithm)
 public class Question7 {
     public static int maxSubarraySum(int arr[]) {
         int maxSum = Integer.MIN_VALUE;
@@ -16,7 +16,7 @@ public class Question7 {
     } 
 
     public static void main(String args[]) {
-        int arr[] = {5, 4, -1, 7, 8};
+        int arr[] = {2, 3, -8, 7, -1, 2, 3};
         System.out.println(maxSubarraySum(arr));
     }
 }
