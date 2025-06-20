@@ -1,8 +1,8 @@
 //Array Search (Linear Search Algorithm)
 public class Question1 {
-    public static int arraySearch(int arr[], int x) {
+    public static int linearSearch(int arr[], int target) {
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == x) {
+            if (arr[i] == target) {
                 return i;
             }
         } 
@@ -10,9 +10,9 @@ public class Question1 {
     }
 
     public static void main(String[] args) {
-        int arr[] = { 10, 8, 30 };
-        int x = 6; 
-        System.out.println(arraySearch(arr, x));
+        int arr[] = { 1, 2, 3, 4, 5 };
+        int target = 3; 
+        System.out.println(linearSearch(arr, target));
     }
 }
 
