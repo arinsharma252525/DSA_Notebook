@@ -9,13 +9,13 @@ public class Question11 {
                 return mid;
             }
             if (arr[start] <= arr[mid]) {
-                if (arr[start] <= target && target < arr[mid]) {
+                if (arr[start] <= target && arr[mid] > target) {
                     end = mid - 1;
                 } else {
                     start = mid + 1;
                 }
             } else {
-                if (arr[mid] < target && target <= arr[end]) {
+                if (arr[end] >= target && arr[mid] < target) {
                     start = mid + 1;
                 } else {
                     end = mid - 1;

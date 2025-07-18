@@ -1,4 +1,4 @@
-//Maximum Subarray Sum
+//Kadane's Algorithm
 public class Question7 {
     public static int maxSum(int arr[]) {
         int maxSum = arr[0];
