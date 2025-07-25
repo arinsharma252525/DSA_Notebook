@@ -1,3 +1,4 @@
+//Spirally traversing a matrix
 public class Question1 {
     public static void spiralMatrix(int arr[][]) {
         int startRow = 0;
