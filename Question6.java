@@ -17,3 +17,4 @@ public class Question6 {
         printSubarray(arr);
     }
 }
+ 

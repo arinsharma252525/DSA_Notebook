@@ -13,3 +13,4 @@ public class Question5 {
         pairsInArray(arr);
     }
 }
+ 

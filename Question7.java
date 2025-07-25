@@ -19,4 +19,4 @@ public class Question7 {
         int arr[] = { 5, 4, 1, 7, 8 };
         System.out.println(maxSum(arr));
     }
-}
+} 

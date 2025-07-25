@@ -8,7 +8,7 @@ public class Question13 {
         int trappedWater = 0;
         int leftMax = 0;
         int rightMax = 0;
-
+  
         while (i < j) {
             if (height[i] < height[j]) {
                 if (height[i] >= leftMax) {

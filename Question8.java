@@ -17,7 +17,7 @@ public class Question8 {
         for (int i = n - 2; i >= 0; i--) {
             rightMax[i] = Math.max(rightMax[i + 1], arr[i]);
         }
-
+ 
         // Calculate trapped water
         for (int i = 1; i < n - 1; i++) {
             int waterLevel = Math.min(leftMax[i], rightMax[i]);

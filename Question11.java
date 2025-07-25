@@ -31,3 +31,4 @@ public class Question11 {
         System.out.println(search(arr, target));
     }
 }
+  

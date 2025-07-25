@@ -17,7 +17,7 @@ public class Question3 {
         }
         return result;
     }
-
+ 
     public static void main(String[] args) {
         int arr[] = { 1, 1, 1, 1, 2 };
         int target = 1;

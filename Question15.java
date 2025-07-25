@@ -25,4 +25,4 @@ public class Question15 {
         int[] arr = { 0, -1, 2, -3, 1 };
         System.out.println(findTriplets(arr));
     }
-}
+} 
